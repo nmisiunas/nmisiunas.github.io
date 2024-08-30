@@ -5,7 +5,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     color: #333;
-    background: #f4f4f4;
+    background: #f9f9f9;
 }
 
 a {
@@ -14,26 +14,28 @@ a {
 }
 
 .container {
-    width: 80%;
+    width: 90%;
+    max-width: 1200px;
     margin: auto;
 }
 
 /* Header */
 header {
-    background: #2c3e50;
-    color: #ecf0f1;
+    background: #f9c6c9; /* Light pink background */
+    color: #333;
+    padding: 1rem 0;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 0;
 }
 
 .logo {
-    font-size: 1.75rem;
+    font-size: 2rem;
     font-weight: 700;
+    color: #e63946; /* Darker pink for logo */
 }
 
 .nav-links {
@@ -42,21 +44,4 @@ nav {
 }
 
 .nav-links li {
-    margin-left: 2rem;
-}
-
-.nav-links a {
-    color: #ecf0f1;
-    font-weight: 500;
-    transition: color 0.3s ease;
-}
-
-.nav-links a:hover {
-    color: #db34a1;
-}
-
-/* Hero Section */
-.hero {
-    background: url('images/hero-bg.jpg') no-repeat center center/cover;
-    color: #ecf0f1;
-   
+    margin-left
