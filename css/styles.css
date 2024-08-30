@@ -21,7 +21,7 @@ a {
 
 /* Header */
 header {
-    background: #ffdee0; /* Light pink background */
+    background: #f9c6c9; /* Light pink background */
     color: #333;
     padding: 1rem 0;
 }
@@ -30,12 +30,13 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
 }
 
 .logo {
     font-size: 2rem;
     font-weight: 700;
-    color: #d6336c; /* Darker pink for logo */
+    color: #e63946; /* Darker pink for logo */
 }
 
 .nav-links {
@@ -48,13 +49,13 @@ nav {
 }
 
 .nav-links a {
-    color: #d6336c; /* Darker pink for links */
+    color: #e63946; /* Darker pink for links */
     font-weight: 500;
     transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
-    color: #c52a68; /* Slightly darker pink on hover */
+    color: #d62839; /* Slightly darker pink on hover */
 }
 
 /* Hero Section */
@@ -71,12 +72,13 @@ nav {
 }
 
 .hero h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
+    font-weight: 700;
     margin-bottom: 0.5rem;
 }
 
 .hero p {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     margin-bottom: 2rem;
 }
 
@@ -87,20 +89,22 @@ nav {
 }
 
 .projects h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
     margin-bottom: 2rem;
-    font-size: 2rem;
-    color: #d6336c; /* Darker pink for headings */
+    color: #e63946; /* Darker pink for headings */
 }
 
 .project-links {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1.5rem;
+    justify-content: center;
 }
 
 .project-card {
     background: #fff;
-    padding: 1.5rem;
+    padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -108,13 +112,14 @@ nav {
 }
 
 .project-card img {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     margin-bottom: 1rem;
 }
 
 .project-card h3 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
+    font-weight: 700;
     color: #333;
 }
 
@@ -130,13 +135,15 @@ nav {
 }
 
 .about-me h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-weight: 700;
     margin-bottom: 1rem;
-    color: #d6336c; /* Darker pink for headings */
+    color: #e63946; /* Darker pink for headings */
 }
 
 .about-me p {
-    font-size: 1.125rem;
+    font-size: 1.25rem;
+    font-weight: 400;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -148,13 +155,15 @@ nav {
 }
 
 .final-project h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-weight: 700;
     margin-bottom: 1rem;
-    color: #d6336c; /* Darker pink for headings */
+    color: #e63946; /* Darker pink for headings */
 }
 
 .final-project p {
-    font-size: 1.125rem;
+    font-size: 1.25rem;
+    font-weight: 400;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -169,12 +178,12 @@ nav {
 }
 
 .final-project a {
-    color: #d6336c;
+    color: #e63946;
     font-weight: 500;
 }
 
 .final-project a:hover {
-    color: #c52a68;
+    color: #d62839;
 }
 
 /* 404 Page */
@@ -184,8 +193,9 @@ nav {
 }
 
 .not-found h1 {
-    font-size: 4rem;
-    color: #d6336c;
+    font-size: 5rem;
+    font-weight: 700;
+    color: #e63946;
 }
 
 .not-found p {
@@ -196,20 +206,21 @@ nav {
 .cta-button {
     display: inline-block;
     padding: 1rem 2rem;
-    background: #d6336c;
+    background: #e63946;
     color: #fff;
     border-radius: 5px;
-    font-size: 1.125rem;
+    font-size: 1.25rem;
+    font-weight: 500;
     transition: background 0.3s ease;
 }
 
 .cta-button:hover {
-    background: #c52a68;
+    background: #d62839;
 }
 
 /* Footer */
 footer {
-    background: #ffdee0;
+    background: #f9c6c9;
     color: #333;
     text-align: center;
     padding: 1rem 0;
