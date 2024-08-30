@@ -1,125 +1,216 @@
-/* Basic Reset */
-* {
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-/* Body Styling */
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
     color: #333;
-    background-color: #f4f4f4;
+    background: #f9f9f9;
 }
 
-/* Header Styling */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Header */
 header {
-    background-color: #e597cb; /* Pink background */
+    background: #ffdee0; /* Light pink background */
+    color: #333;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #d6336c; /* Darker pink for logo */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 1.5rem;
+}
+
+.nav-links a {
+    color: #d6336c; /* Darker pink for links */
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #c52a68; /* Slightly darker pink on hover */
+}
+
+/* Hero Section */
+.hero {
+    background: url('images/hero-bg.jpg') no-repeat center center/cover;
     color: #fff;
-    padding: 20px 0;
+    text-align: center;
+    padding: 6rem 1rem;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+/* Projects Section */
+.projects {
+    padding: 4rem 0;
     text-align: center;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 2.5rem;
+.projects h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #d6336c; /* Darker pink for headings */
 }
 
-/* Navigation Bar Styling */
-nav ul {
+.project-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.project-card {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1rem;
+}
+
+.project-card h3 {
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* About Me Section */
+.about-me {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.about-me h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #d6336c; /* Darker pink for headings */
+}
+
+.about-me p {
+    font-size: 1.125rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Final Project Section */
+.final-project {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.final-project h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #d6336c; /* Darker pink for headings */
+}
+
+.final-project p {
+    font-size: 1.125rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.final-project ul {
     list-style: none;
     padding: 0;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
+.final-project li {
+    margin: 0.5rem 0;
 }
 
-nav ul li a {
+.final-project a {
+    color: #d6336c;
+    font-weight: 500;
+}
+
+.final-project a:hover {
+    color: #c52a68;
+}
+
+/* 404 Page */
+.not-found {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.not-found h1 {
+    font-size: 4rem;
+    color: #d6336c;
+}
+
+.not-found p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: #d6336c;
     color: #fff;
-    text-decoration: none;
-    font-size: 1.1rem;
+    border-radius: 5px;
+    font-size: 1.125rem;
+    transition: background 0.3s ease;
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
+.cta-button:hover {
+    background: #c52a68;
 }
 
-/* Main Section Styling */
-main {
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-    border-bottom: 2px solid #e597cb;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-    font-size: 2rem;
-}
-
-/* Link Styling */
-a {
-    color: #e597cb;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* Footer Styling */
+/* Footer */
 footer {
-    background-color: #e597cb;
-    color: #fff;
+    background: #ffdee0;
+    color: #333;
     text-align: center;
-    padding: 10px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-/* 404 Page Styling */
-.404-page {
-    text-align: center;
-    padding: 50px;
-}
-
-.404-page h1 {
-    font-size: 3rem;
-}
-
-.404-page p {
-    font-size: 1.2rem;
-}
-
-.404-page a {
-    font-size: 1.2rem;
-    color: #e597cb;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    header h1 {
-        font-size: 2rem;
-    }
-
-    nav ul li {
-        display: block;
-        margin-bottom: 10px;
-    }
-
-    nav ul li a {
-        font-size: 1rem;
-    }
-
-    main {
-        padding: 15px;
-    }
+    padding: 1rem 0;
 }
