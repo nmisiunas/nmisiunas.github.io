@@ -3,45 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Engineering Projects</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="final-project.html">Final Project</a></li>
-            </ul>
+            <div class="container">
+                <a href="index.html" class="logo">Engineering Projects</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="final-project.html">Final Project</a></li>
+                </ul>
+            </div>
         </nav>
-        <h1>My Projects</h1>
     </header>
-    <main>
-        <section>
-            <h2>Minor Projects</h2>
-            <ul>
-                <li><a href="assignments/principles-practices.html">Principles, Practices, Project Management (Web Design)</a></li>
-                <li><a href="#cad">Computer Aided Design</a></li>
-                <li><a href="#cutting">Computer Controlled Cutting</a></li>
-                <li><a href="#electronics-production">Electronics Production</a></li>
-                <li><a href="#3d-printing">3D Scanning and Printing</a></li>
-                <li><a href="#embedded-programming">Embedded Programming</a></li>
-                <li><a href="#electronics-design">Electronics Design</a></li>
-                <li><a href="#output-devices">Output Devices</a></li>
-                <li><a href="#mechanical-design">Mechanical Design</a></li>
-                <li><a href="#input-devices">Input Devices</a></li>
-                <li><a href="#molding-casting">Molding and Casting</a></li>
-                <li><a href="#networking-communications">Networking and Communications</a></li>
-                <li><a href="#interface-programming">Interface and Application Programming</a></li>
-            </ul>
-        </section>
-        <section>
-            <a href="final-project.html">Final Project</a>
-        </section>
-    </main>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Engineering Projects Portfolio</h1>
+            <p>Showcasing Innovative Solutions and Designs</p>
+        </div>
+    </section>
+
+    <section class="projects">
+        <div class="container">
+            <h2>Explore Our Projects</h2>
+            <div class="project-links">
+                <a href="principles.html" class="project-card">
+                    <img src="images/icons/project-management.svg" alt="Project Management">
+                    <h3>Principles, Practices, Project Management</h3>
+                </a>
+                <a href="cad.html" class="project-card">
+                    <img src="images/icons/cad.svg" alt="CAD">
+                    <h3>Computer Aided Design</h3>
+                </a>
+                <a href="cutting.html" class="project-card">
+                    <img src="images/icons/cutting.svg" alt="Cutting">
+                    <h3>Computer Controlled Cutting</h3>
+                </a>
+                <a href="electronics-production.html" class="project-card">
+                    <img src="images/icons/electronics.svg" alt="Electronics Production">
+                    <h3>Electronics Production</h3>
+                </a>
+                <!-- Add more projects here -->
+                <a href="final-project.html" class="project-card">
+                    <img src="images/icons/final-project.svg" alt="Final Project">
+                    <h3>Final Project</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
     <footer>
-        <p>© 2024 Nicholas Misiunas </p>
+        <div class="container">
+            <p>&copy; 2024 Engineering Projects Portfolio</p>
+        </div>
     </footer>
 </body>
 </html>
