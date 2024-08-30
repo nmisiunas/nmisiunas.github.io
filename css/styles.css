@@ -15,7 +15,7 @@ body {
 
 /* Header Styling */
 header {
-    background-color: #007bff; /* Blue background */
+    background-color: #e597cb; /* Pink background */
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -58,7 +58,7 @@ main {
 }
 
 h2 {
-    border-bottom: 2px solid #007bff;
+    border-bottom: 2px solid #e597cb;
     padding-bottom: 10px;
     margin-bottom: 20px;
     font-size: 2rem;
@@ -66,7 +66,7 @@ h2 {
 
 /* Link Styling */
 a {
-    color: #007bff;
+    color: #e597cb;
     text-decoration: none;
 }
 
@@ -76,7 +76,7 @@ a:hover {
 
 /* Footer Styling */
 footer {
-    background-color: #007bff;
+    background-color: #e597cb;
     color: #fff;
     text-align: center;
     padding: 10px 0;
@@ -101,7 +101,7 @@ footer {
 
 .404-page a {
     font-size: 1.2rem;
-    color: #007bff;
+    color: #e597cb;
 }
 
 /* Responsive Design */
