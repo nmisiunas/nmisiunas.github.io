@@ -3,43 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My College Portfolio</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="final-project.html">Final Project</a></li>
-        </ul>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-brand">My Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="final-project.html">Final Project</a></li>
+            </ul>
+        </div>
     </nav>
-    <header>
+
+    <!-- Title Banner -->
+    <header class="title-banner">
         <h1>Welcome to My Portfolio</h1>
-        <p>Explore my journey through various projects and experiences.</p>
     </header>
-    <main>
-        <section>
-            <h2>Minor Projects</h2>
+
+    <!-- Body Content -->
+    <div class="container">
+        <section class="projects">
+            <h2>My Projects</h2>
             <ul>
-                <li><a href="404.html">Principles, Practices, Project Management (Web Design)</a></li>
-                <li><a href="404.html">Computer Aided Design</a></li>
-                <li><a href="404.html">Computer Controlled Cutting</a></li>
-                <li><a href="404.html">Electronics Production</a></li>
-                <li><a href="404.html">3D Scanning and Printing</a></li>
-                <li><a href="404.html">Embedded Programming</a></li>
-                <li><a href="404.html">Electronics Design</a></li>
-                <li><a href="404.html">Output Devices</a></li>
-                <li><a href="404.html">Mechanical Design</a></li>
-                <li><a href="404.html">Input Devices</a></li>
-                <li><a href="404.html">Molding and Casting</a></li>
-                <li><a href="404.html">Networking and Communications</a></li>
-                <li><a href="404.html">Interface and Application Programming</a></li>
+                <li><a href="#">Principles, Practices, Project Management</a></li>
+                <li><a href="#">Computer Aided Design</a></li>
+                <li><a href="#">Computer Controlled Cutting</a></li>
+                <li><a href="#">Electronics Production</a></li>
+                <li><a href="#">3D Scanning and Printing</a></li>
+                <li><a href="#">Embedded Programming</a></li>
+                <li><a href="#">Electronics Design</a></li>
+                <li><a href="#">Output Devices</a></li>
+                <li><a href="#">Mechanical Design</a></li>
+                <li><a href="#">Input Devices</a></li>
+                <li><a href="#">Molding and Casting</a></li>
+                <li><a href="#">Networking and Communications</a></li>
+                <li><a href="#">Interface and Application Programming</a></li>
             </ul>
         </section>
-        <section>
-            <h2><a href="final-project.html">Final Project</a></h2>
+
+        <!-- Link to Final Project -->
+        <section class="final-project-link">
+            <h2>Final Project</h2>
+            <p><a href="final-project.html">Explore my final project here</a></p>
         </section>
-    </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2024 My Portfolio</p>
+    </footer>
 </body>
 </html>
