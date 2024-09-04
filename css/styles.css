@@ -31,7 +31,7 @@ nav ul li a {
     color: #333;
     text-decoration: none;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px; /* Larger font size */
 }
 
 .banner {
@@ -40,7 +40,7 @@ nav ul li a {
 }
 
 .banner h1 {
-    font-size: 36px;
+    font-size: 48px; /* Larger font size for banner title */
     margin: 0;
 }
 
@@ -51,12 +51,12 @@ main {
     text-align: center; /* Center align main content */
 }
 
-.projects ul {
+.projects ul, .final-project ul {
     list-style: none;
     padding: 0;
 }
 
-.projects ul li {
+.projects ul li, .final-project ul li {
     margin-bottom: 15px;
 }
 
@@ -64,12 +64,13 @@ main {
     display: inline-block;
     background-color: #ffffff;
     color: #333;
-    padding: 15px;
+    padding: 20px;
     text-decoration: none;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     font-weight: 500;
     transition: background-color 0.3s, color 0.3s;
+    font-size: 18px; /* Larger font size */
 }
 
 .box:hover {
@@ -81,10 +82,11 @@ main {
     display: inline-block;
     background-color: #ff66b2;
     color: white;
-    padding: 10px 20px;
+    padding: 15px 30px;
     text-decoration: none;
     border-radius: 5px;
     font-weight: 600;
+    font-size: 20px; /* Larger font size */
     transition: background-color 0.3s;
 }
 
@@ -94,6 +96,15 @@ main {
 
 .final-project {
     margin-top: 30px;
+}
+
+.about-me, .final-project {
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 36px; /* Larger font size for section headings */
+    margin-bottom: 20px;
 }
 
 .error {
@@ -108,5 +119,5 @@ main {
 }
 
 .error p {
-    font-size: 18px;
+    font-size: 20px;
 }
