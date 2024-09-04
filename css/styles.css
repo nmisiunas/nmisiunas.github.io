@@ -5,6 +5,7 @@ body {
     background-color: #ffeef0; /* Light pink background */
     margin: 0;
     padding: 0;
+    text-align: center; /* Center align all text */
 }
 
 header {
@@ -12,13 +13,16 @@ header {
     color: #333;
     padding: 20px 0;
     box-shadow: 0 1px 4px rgba(0,0,0,0.1); /* Subtle shadow for header */
+    position: fixed; /* Fixed header at the top */
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Ensure header is above other content */
 }
 
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    text-align: center;
 }
 
 nav ul li {
@@ -30,56 +34,67 @@ nav ul li a {
     color: #333;
     text-decoration: none;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px; /* Larger font size */
 }
 
 .banner {
-    text-align: center;
-    padding: 30px 0;
+    padding: 100px 20px 50px;
 }
 
 .banner h1 {
-    font-size: 36px;
+    font-size: 72px; /* Larger font size for banner title */
     margin: 0;
 }
 
 main {
-    padding: 40px 20px;
+    padding: 150px 20px 40px; /* Adjust padding to account for fixed header */
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.projects ul {
+h2 {
+    font-size: 48px; /* Larger font size for section headings */
+    margin-bottom: 40px;
+}
+
+p {
+    font-size: 24px; /* Larger font size for paragraphs */
+    line-height: 1.6;
+}
+
+.projects ul, .final-project ul {
     list-style: none;
     padding: 0;
+    text-align: center; /* Center align list items */
 }
 
-.projects ul li {
-    margin-bottom: 15px;
+.projects ul li, .final-project ul li {
+    margin-bottom: 30px;
 }
 
-.projects ul li a {
-    color: #ff66b2;
-    text-decoration: none;
-    font-weight: 600;
-}
-
-.projects ul li a:hover {
-    text-decoration: underline;
-}
-
-.final-project a {
+.box, .button {
     display: inline-block;
+    background-color: #ffffff;
+    color: #333;
+    padding: 30px 50px;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-weight: 600;
+    font-size: 24px; /* Larger font size for boxes and buttons */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.box:hover, .button:hover {
     background-color: #ff66b2;
     color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: 600;
 }
 
-.final-project a:hover {
-    background-color: #ff4c9a;
+.button {
+    background-color: #ff66b2;
+    color: white;
+    padding: 20px 40px;
+    font-size: 28px; /* Larger font size for buttons */
 }
 
 .error {
@@ -89,10 +104,10 @@ main {
 
 .error h1 {
     color: #ff66b2;
-    font-size: 48px;
+    font-size: 72px;
     margin: 0;
 }
 
 .error p {
-    font-size: 18px;
+    font-size: 24px;
 }
