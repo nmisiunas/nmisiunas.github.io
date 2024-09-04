@@ -91,7 +91,7 @@ html, body {
 }
 
 .projects ul li a {
-    text-decoration: none;
+    text-decoration: pink;
     color: #333;
 }
 
