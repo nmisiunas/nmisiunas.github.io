@@ -38,16 +38,19 @@ nav ul li a {
 }
 
 .banner {
-    padding: 50px 20px 50px;
+    padding: 150px 20px 50px; /* Adjusted padding to push content down */
+    position: relative;
+    z-index: 1; /* Ensure banner is above other elements */
 }
 
 .banner h1 {
+    color: #333; /* Ensure text color contrasts with the background */
     font-size: 72px; /* Larger font size for banner title */
     margin: 0;
 }
 
 main {
-    padding: 150px 20px 40px; /* Adjust padding to account for fixed header */
+    padding: 200px 20px 40px; /* Increased padding to account for fixed header */
     max-width: 1200px;
     margin: 0 auto;
 }
