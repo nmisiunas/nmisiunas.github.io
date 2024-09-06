@@ -15,7 +15,7 @@ header {
     box-shadow: 0 1px 4px rgba(0,0,0,0.1); /* Subtle shadow for header */
     position: fixed; /* Fixed header at the top */
     width: 100%;
-    height: 85px;
+    height: 90px;
     top: 0;
     z-index: 1000; /* Ensure header is above other content */
 }
@@ -46,6 +46,7 @@ nav ul li a {
 .banner h1 {
     font-size: 60px; /* Larger font size for banner title */
     margin: 0;
+    padding: 0;
 }
 
 main {
