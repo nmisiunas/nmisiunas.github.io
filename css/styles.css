@@ -114,4 +114,6 @@ p {
 .error p {
     font-size: 24px;
 }
-
+h1{
+    padding: 0;
+}
