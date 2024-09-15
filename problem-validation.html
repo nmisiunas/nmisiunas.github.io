@@ -5,6 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Problem Validation</title>
     <link rel="stylesheet" href="css/styles.css">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f4a6b1; /* Light pink background for headers */
+            color: #ffffff; /* White text color for headers */
+            font-size: 1.1em; /* Slightly larger font size for headers */
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9; /* Alternating row colors */
+        }
+        tr:hover {
+            background-color: #f1c6c6; /* Light pink highlight on hover */
+        }
+        caption {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -27,7 +54,8 @@
             </p>
             
             <h2>Market Research</h2>
-            <table border="1">
+            <table>
+                <caption>Market Research Findings</caption>
                 <tr>
                     <th>Source (APA Citation)</th>
                     <th>Artifact Summary</th>
