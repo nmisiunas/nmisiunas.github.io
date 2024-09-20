@@ -117,3 +117,25 @@ p {
 h1{
     padding: 0;
 }
+.cad-gallery {
+    padding: 20px;
+}
+
+.image-container {
+    margin: 15px;
+    text-align: center;
+    display: inline-block; /* Align images horizontally */
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ccc; /* Optional styling */
+}
+
+.caption {
+    margin-top: 8px;
+    font-size: 14px; /* Adjust font size as needed */
+    color: #555; /* Adjust to match your theme */
+}
+
