@@ -56,7 +56,7 @@ main {
 }
 
 h2, h3, h4, h5, h6 {
-    font-size: 60px; /* Adjust font size for all headings */
+    font-size: 48px; /* Adjust font size for all headings */
     color: black; /* Set text color to black */
     font-weight: bold; /* Make the text bold */
     margin-bottom: 40px;
