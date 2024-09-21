@@ -24,7 +24,7 @@ nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    height: 50;
+    height: 50px; /* Fixed height for nav items */
 }
 
 nav ul li {
@@ -55,8 +55,10 @@ main {
     margin: 0 auto;
 }
 
-h2 {
-    font-size: 48px; /* Larger font size for section headings */
+h2, h3, h4, h5, h6 {
+    font-size: 48px; /* Adjust font size for all headings */
+    color: black; /* Set text color to black */
+    font-weight: bold; /* Make the text bold */
     margin-bottom: 40px;
 }
 
@@ -114,9 +116,11 @@ p {
 .error p {
     font-size: 24px;
 }
-h1{
+
+h1 {
     padding: 0;
 }
+
 .cad-gallery {
     padding: 20px;
 }
@@ -138,4 +142,3 @@ h1{
     font-size: 14px; /* Adjust font size as needed */
     color: #555; /* Adjust to match your theme */
 }
-
