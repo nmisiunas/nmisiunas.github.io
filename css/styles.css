@@ -11,7 +11,7 @@ body {
 header {
     background-color: #ffffff; /* White background for header */
     color: #333;
-    padding: 10px 0; /* Adjusted padding for more space around the heading */
+    padding: 5px 0; /* Reduced padding to bring h1 closer to the top */
     box-shadow: 0 1px 4px rgba(0,0,0,0.1); /* Subtle shadow for header */
     position: fixed; /* Fixed header at the top */
     width: 100%;
@@ -40,8 +40,9 @@ nav ul li a {
 }
 
 h1 {
-    font-size: 48px; /* Adjust font size for header title */
+    font-size: 64px; /* Increased font size for header title */
     margin: 0; /* Remove default margin */
+    font-weight: bold; /* Ensure the text is bold */
 }
 
 .banner {
