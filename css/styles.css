@@ -60,6 +60,9 @@ h2, h3, h4, h5, h6 {
     color: black; /* Set text color to black */
     font-weight: bold; /* Make the text bold */
     margin-bottom: 40px;
+    padding: 20px 0; /* Add padding for consistent spacing */
+    background-color: #ffffff; /* White background for headings */
+    border-radius: 10px; /* Optional: rounded corners for aesthetic */
 }
 
 p {
